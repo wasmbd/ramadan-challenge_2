@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "Green_Pink_Trendy_Scalloped_Wavy_Dinner_Party_Menu__4_-removebg-preview",
+  "identifier": "texture:241195-a781e7fc-dc63-47ab-bf61-25d44ad15e03",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "ec75223bd1d0843eafdba1050a72c7d8",
+  "assetLocator": "textures/Green_Pink_Trendy_Scalloped_Wavy_Dinner_Party_Menu__4_-removebg-preview.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 594,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 420,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "ec75223bd1d0843eafdba1050a72c7d8",
+      "colorCount": 25330,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 2.5067701967551947,
+      "pixelsHigh": 594,
+      "pixelsWide": 420
+    }
+  ]
+}

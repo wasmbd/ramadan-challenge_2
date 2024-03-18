@@ -1,0 +1,169 @@
+{
+  "id": "240788a781e7fcdc6347abbf6125d44ad15e03",
+  "revision": "384411a781e7fcdc6347abbf6125d44ad15e03",
+  "version": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 180
+  },
+  "creatorIdentifier": "com.facebook.arstudio.skylight",
+  "creatorPlatform": "windows",
+  "creatorFileVersion": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 180
+  },
+  "visual_programming": {
+    "connections": [
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:246919-a781e7fc-dc63-47ab-bf61-25d44ad15e03",
+        "fromPatch": "template_patch_model:246327-a781e7fc-dc63-47ab-bf61-25d44ad15e03",
+        "fromPort": "100",
+        "toPatch": "consumer_patch_model:246193-a781e7fc-dc63-47ab-bf61-25d44ad15e03",
+        "toPort": "2"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:248718-a781e7fc-dc63-47ab-bf61-25d44ad15e03",
+        "fromPatch": "template_patch_model:248714-a781e7fc-dc63-47ab-bf61-25d44ad15e03",
+        "fromPort": "1001",
+        "toPatch": "template_patch_model:248716-a781e7fc-dc63-47ab-bf61-25d44ad15e03",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:248969-a781e7fc-dc63-47ab-bf61-25d44ad15e03",
+        "fromPatch": "template_patch_model:248716-a781e7fc-dc63-47ab-bf61-25d44ad15e03",
+        "fromPort": "1001",
+        "toPatch": "consumer_patch_model:248720-a781e7fc-dc63-47ab-bf61-25d44ad15e03",
+        "toPort": "101"
+      }
+    ],
+    "graphs": [
+      {
+        "modelName": "patch_graph",
+        "identifier": "patch_graph:240876-a781e7fc-dc63-47ab-bf61-25d44ad15e03",
+        "subpatches": [
+          "consumer_patch_model:246193-a781e7fc-dc63-47ab-bf61-25d44ad15e03",
+          "consumer_patch_model:248720-a781e7fc-dc63-47ab-bf61-25d44ad15e03",
+          "template_patch_model:246327-a781e7fc-dc63-47ab-bf61-25d44ad15e03",
+          "template_patch_model:248714-a781e7fc-dc63-47ab-bf61-25d44ad15e03",
+          "template_patch_model:248716-a781e7fc-dc63-47ab-bf61-25d44ad15e03"
+        ]
+      }
+    ],
+    "patches": [
+      {
+        "modelName": "consumer_patch_model",
+        "name": "animationSequence0",
+        "identifier": "consumer_patch_model:246193-a781e7fc-dc63-47ab-bf61-25d44ad15e03",
+        "object": "sequenceTexture:241087-a781e7fc-dc63-47ab-bf61-25d44ad15e03",
+        "objectProperty": "current_frame",
+        "position": [
+          2060,
+          428
+        ]
+      },
+      {
+        "modelName": "consumer_patch_model",
+        "name": "EPCOT_MoroccanLamp",
+        "identifier": "consumer_patch_model:248720-a781e7fc-dc63-47ab-bf61-25d44ad15e03",
+        "object": "master3_d_object_model:247859-a781e7fc-dc63-47ab-bf61-25d44ad15e03",
+        "objectProperty": "rotation",
+        "position": [
+          3116,
+          452
+        ],
+        "values": [
+          {
+            "port": "101",
+            "value": {
+              "t": "vec3",
+              "v": [
+                0,
+                0,
+                0
+              ]
+            }
+          }
+        ],
+        "variantInfo": "local_transform"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Picker UI",
+        "identifier": "template_patch_model:246327-a781e7fc-dc63-47ab-bf61-25d44ad15e03",
+        "position": [
+          1748,
+          332
+        ],
+        "templateId": "builtin.nativeUIPicker",
+        "values": [
+          {
+            "port": "1",
+            "value": {
+              "t": "bool",
+              "v": true
+            }
+          },
+          {
+            "port": "20",
+            "value": {
+              "t": "string",
+              "v": "texture:241331-a781e7fc-dc63-47ab-bf61-25d44ad15e03"
+            }
+          },
+          {
+            "port": "21",
+            "value": {
+              "t": "string",
+              "v": "texture:241327-a781e7fc-dc63-47ab-bf61-25d44ad15e03"
+            }
+          },
+          {
+            "port": "22",
+            "value": {
+              "t": "string",
+              "v": "texture:241335-a781e7fc-dc63-47ab-bf61-25d44ad15e03"
+            }
+          }
+        ]
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Loop Animation",
+        "identifier": "template_patch_model:248714-a781e7fc-dc63-47ab-bf61-25d44ad15e03",
+        "position": [
+          2396,
+          332
+        ],
+        "templateId": "builtin.group.loopAnimation"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Transition",
+        "identifier": "template_patch_model:248716-a781e7fc-dc63-47ab-bf61-25d44ad15e03",
+        "position": [
+          2636,
+          380
+        ],
+        "templateId": "builtin.group.transition",
+        "values": [
+          {
+            "port": "102",
+            "value": {
+              "t": "vec3",
+              "v": [
+                0,
+                190,
+                0
+              ]
+            }
+          }
+        ],
+        "variantInfo": "vec3"
+      }
+    ]
+  }
+}

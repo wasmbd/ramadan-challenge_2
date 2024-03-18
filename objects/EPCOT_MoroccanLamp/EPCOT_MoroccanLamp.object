@@ -1,0 +1,174 @@
+{
+  "modelName": "master3_d_object_model",
+  "name": "EPCOT_MoroccanLamp",
+  "identifier": "master3_d_object_model:247279-a781e7fc-dc63-47ab-bf61-25d44ad15e03",
+  "sourceIdentifier": "asset_collection_model:247283-a781e7fc-dc63-47ab-bf61-25d44ad15e03",
+  "animationMask": {
+    "position": false,
+    "rotation": false,
+    "scale": false
+  },
+  "cameraVisibility": "back|front",
+  "depth": 56.91975784301758,
+  "globalScaleFactor": 0.022222222222222223,
+  "height": 90,
+  "hidden": false,
+  "layerIdentifier": "layer0",
+  "outputVisibility": "preview|capture",
+  "physicsEnabled": false,
+  "tags": [],
+  "transform": {
+    "rx": 0,
+    "ry": 0,
+    "rz": 0,
+    "sx": 1,
+    "sy": 1,
+    "sz": 1,
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "width": 56.91975784301758,
+  "children": [
+    {
+      "modelName": "mesh",
+      "name": "Frame",
+      "identifier": "mesh:247249-a781e7fc-dc63-47ab-bf61-25d44ad15e03",
+      "animationMask": {
+        "position": false,
+        "rotation": false,
+        "scale": false
+      },
+      "cameraVisibility": "back|front",
+      "castShadow": false,
+      "hidden": false,
+      "layerIdentifier": "layer0",
+      "nodeName": "Frame",
+      "numberOfFaces": 121576,
+      "outputVisibility": "preview|capture",
+      "physicsEnabled": false,
+      "prefabIdentifier": "gltf:247253-a781e7fc-dc63-47ab-bf61-25d44ad15e03",
+      "receiveShadow": false,
+      "renderPass": "main_scene",
+      "tags": [],
+      "transform": {
+        "rx": 0,
+        "ry": 0,
+        "rz": 0,
+        "sx": 1,
+        "sy": 1,
+        "sz": 1,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "useEmbeddedBlendshapes": false,
+      "children": [
+        {
+          "modelName": "surfaces",
+          "identifier": "surfaces:247251-a781e7fc-dc63-47ab-bf61-25d44ad15e03",
+          "children": [
+            {
+              "modelName": "surface",
+              "name": "surface0",
+              "identifier": "surface:247256-a781e7fc-dc63-47ab-bf61-25d44ad15e03",
+              "isMaterialIdentifierEnabled": true,
+              "materialIdentifier": "dependent_material_model:247243-a781e7fc-dc63-47ab-bf61-25d44ad15e03",
+              "surfaceGroupIdentifier": "247257-a781e7fc-dc63-47ab-bf61-25d44ad15e03"
+            },
+            {
+              "modelName": "surface",
+              "name": "surface1",
+              "identifier": "surface:247259-a781e7fc-dc63-47ab-bf61-25d44ad15e03",
+              "isMaterialIdentifierEnabled": true,
+              "materialIdentifier": "dependent_material_model:247243-a781e7fc-dc63-47ab-bf61-25d44ad15e03",
+              "surfaceGroupIdentifier": "247257-a781e7fc-dc63-47ab-bf61-25d44ad15e03"
+            },
+            {
+              "modelName": "surface",
+              "name": "surface2",
+              "identifier": "surface:247261-a781e7fc-dc63-47ab-bf61-25d44ad15e03",
+              "isMaterialIdentifierEnabled": true,
+              "materialIdentifier": "dependent_material_model:247243-a781e7fc-dc63-47ab-bf61-25d44ad15e03",
+              "surfaceGroupIdentifier": "247257-a781e7fc-dc63-47ab-bf61-25d44ad15e03"
+            },
+            {
+              "modelName": "surface",
+              "name": "surface3",
+              "identifier": "surface:247263-a781e7fc-dc63-47ab-bf61-25d44ad15e03",
+              "isMaterialIdentifierEnabled": true,
+              "materialIdentifier": "dependent_material_model:247243-a781e7fc-dc63-47ab-bf61-25d44ad15e03",
+              "surfaceGroupIdentifier": "247257-a781e7fc-dc63-47ab-bf61-25d44ad15e03"
+            },
+            {
+              "modelName": "surface",
+              "name": "surface4",
+              "identifier": "surface:247265-a781e7fc-dc63-47ab-bf61-25d44ad15e03",
+              "isMaterialIdentifierEnabled": true,
+              "materialIdentifier": "dependent_material_model:247243-a781e7fc-dc63-47ab-bf61-25d44ad15e03",
+              "surfaceGroupIdentifier": "247257-a781e7fc-dc63-47ab-bf61-25d44ad15e03"
+            },
+            {
+              "modelName": "surface",
+              "name": "surface5",
+              "identifier": "surface:247267-a781e7fc-dc63-47ab-bf61-25d44ad15e03",
+              "isMaterialIdentifierEnabled": true,
+              "materialIdentifier": "dependent_material_model:247243-a781e7fc-dc63-47ab-bf61-25d44ad15e03",
+              "surfaceGroupIdentifier": "247257-a781e7fc-dc63-47ab-bf61-25d44ad15e03"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modelName": "mesh",
+      "name": "Glass",
+      "identifier": "mesh:247269-a781e7fc-dc63-47ab-bf61-25d44ad15e03",
+      "animationMask": {
+        "position": false,
+        "rotation": false,
+        "scale": false
+      },
+      "cameraVisibility": "back|front",
+      "castShadow": false,
+      "hidden": false,
+      "layerIdentifier": "layer0",
+      "nodeName": "Glass",
+      "numberOfFaces": 19304,
+      "outputVisibility": "preview|capture",
+      "physicsEnabled": false,
+      "prefabIdentifier": "gltf:247273-a781e7fc-dc63-47ab-bf61-25d44ad15e03",
+      "receiveShadow": false,
+      "renderPass": "main_scene",
+      "tags": [],
+      "transform": {
+        "rx": 0,
+        "ry": 0,
+        "rz": 0,
+        "sx": 1,
+        "sy": 1,
+        "sz": 1,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "useEmbeddedBlendshapes": false,
+      "children": [
+        {
+          "modelName": "surfaces",
+          "identifier": "surfaces:247271-a781e7fc-dc63-47ab-bf61-25d44ad15e03",
+          "children": [
+            {
+              "modelName": "surface",
+              "name": "surface0",
+              "identifier": "surface:247276-a781e7fc-dc63-47ab-bf61-25d44ad15e03",
+              "isMaterialIdentifierEnabled": true,
+              "materialIdentifier": "dependent_material_model:247245-a781e7fc-dc63-47ab-bf61-25d44ad15e03",
+              "surfaceGroupIdentifier": "247277-a781e7fc-dc63-47ab-bf61-25d44ad15e03"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
